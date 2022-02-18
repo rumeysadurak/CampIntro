@@ -10,13 +10,26 @@ namespace Collections
 
         static void Main(string[] args)
         {
-            //string[] array = new string[] {"Selvi","Sevil","Veli","Engin" };
-            //Console.WriteLine(array[0]);
-            //Console.WriteLine(array[1]);
-            //Console.WriteLine(array[2]);
-            //Console.WriteLine(array[3]);
-            //Console.WriteLine("----------------------\n");
 
+            //Dictionary
+            MyDictionary<int, string> cities =new MyDictionary<int, string>();
+            cities.Add(16, "Bursa");
+            cities.Add(34, "İstanbul");
+            cities.Add(10, "Balıkesir");
+            cities.Add(7, "Ankara");
+
+            Console.WriteLine("All pairs in MyDictionary:");
+            cities.ShowAllKeyValuePairs();
+
+
+
+
+
+
+
+            Console.WriteLine("\n");
+            Console.WriteLine("\n");
+            Console.WriteLine("MyList:");
             //Generic yapı <>
             List<string> myList = new List<string> { "Ayşe"};
             myList.Add("Selvi");
