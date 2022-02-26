@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{FC5F8232-E2A1-4A2F-A1DC-0F49A6307E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShopSimulation", "CoffeeShopSimulation\CoffeeShopSimulation.csproj", "{FEC74A28-CC60-4882-8B0E-292BC8235E56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{FC5F8232-E2A1-4A2F-A1DC-0F49A6307E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5F8232-E2A1-4A2F-A1DC-0F49A6307E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5F8232-E2A1-4A2F-A1DC-0F49A6307E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC74A28-CC60-4882-8B0E-292BC8235E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC74A28-CC60-4882-8B0E-292BC8235E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC74A28-CC60-4882-8B0E-292BC8235E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC74A28-CC60-4882-8B0E-292BC8235E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
